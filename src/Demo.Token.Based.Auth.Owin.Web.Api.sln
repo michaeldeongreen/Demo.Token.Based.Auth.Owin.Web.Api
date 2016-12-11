@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Token.Based.Auth.Owin.Web.Api", "Demo.Token.Based.Auth.Owin.Web.Api\Demo.Token.Based.Auth.Owin.Web.Api.csproj", "{05A3E45D-02AA-460E-878E-97E1B4DFB850}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Token.Based.Auth.Owin.Web.Api.Repository", "Demo.Token.Based.Auth.Owin.Web.Api.Repository\Demo.Token.Based.Auth.Owin.Web.Api.Repository.csproj", "{50BAC334-F3CB-4AC1-8819-B431EC705905}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Token.Based.Auth.Owin.Web.Api.Models", "Demo.Token.Based.Auth.Owin.Web.Api.Models\Demo.Token.Based.Auth.Owin.Web.Api.Models.csproj", "{F4DF8FF3-98D4-4EC4-84FB-70690B855075}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{05A3E45D-02AA-460E-878E-97E1B4DFB850}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05A3E45D-02AA-460E-878E-97E1B4DFB850}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05A3E45D-02AA-460E-878E-97E1B4DFB850}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50BAC334-F3CB-4AC1-8819-B431EC705905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50BAC334-F3CB-4AC1-8819-B431EC705905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50BAC334-F3CB-4AC1-8819-B431EC705905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50BAC334-F3CB-4AC1-8819-B431EC705905}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4DF8FF3-98D4-4EC4-84FB-70690B855075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4DF8FF3-98D4-4EC4-84FB-70690B855075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4DF8FF3-98D4-4EC4-84FB-70690B855075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4DF8FF3-98D4-4EC4-84FB-70690B855075}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

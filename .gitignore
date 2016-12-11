@@ -3,3 +3,7 @@
 /src/Demo.Token.Based.Auth.Owin.Web.Api/obj
 /src/packages
 /src/Demo.Token.Based.Auth.Owin.Web.Api/Demo.Token.Based.Auth.Owin.Web.Api.csproj.user
+/src/Demo.Token.Based.Auth.Owin.Web.Api.Repository/bin
+/src/Demo.Token.Based.Auth.Owin.Web.Api.Repository/obj
+/src/Demo.Token.Based.Auth.Owin.Web.Api.Models/bin
+/src/Demo.Token.Based.Auth.Owin.Web.Api.Models/obj
