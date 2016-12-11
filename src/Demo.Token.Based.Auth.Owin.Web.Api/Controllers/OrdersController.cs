@@ -15,6 +15,5 @@ namespace Demo.Token.Based.Auth.Owin.Web.Api.Controllers
         {
             return Ok(OrderModel.CreateOrders());
         }
-
     }
 }
