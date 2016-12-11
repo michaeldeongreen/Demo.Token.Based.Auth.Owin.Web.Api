@@ -58,10 +58,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AuthenticationContext.cs" />
+    <Compile Include="AuthenticationRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.Token.Based.Auth.Owin.Web.Api.Models\Demo.Token.Based.Auth.Owin.Web.Api.Models.csproj">
+      <Project>{f4df8ff3-98d4-4ec4-84fb-70690b855075}</Project>
+      <Name>Demo.Token.Based.Auth.Owin.Web.Api.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
