@@ -1,0 +1,5 @@
+/src/.vs
+/src/Demo.Token.Based.Auth.Owin.Web.Api/bin
+/src/Demo.Token.Based.Auth.Owin.Web.Api/obj
+/src/packages
+/src/Demo.Token.Based.Auth.Owin.Web.Api/Demo.Token.Based.Auth.Owin.Web.Api.csproj.user
