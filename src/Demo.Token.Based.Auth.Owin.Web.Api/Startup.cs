@@ -1,6 +1,7 @@
 ﻿using Demo.Token.Based.Auth.Owin.Web.Api;
 using Demo.Token.Based.Auth.Owin.Web.Api.Providers;
 using Microsoft.Owin;
+using Microsoft.Owin.Cors;
 using Microsoft.Owin.Security.OAuth;
 using Owin;
 using System;
@@ -19,6 +20,7 @@ namespace Demo.Token.Based.Auth.Owin.Web.Api
             ConfigureOAuth(app);
             HttpConfiguration config = new HttpConfiguration();
             WebApiConfig.Register(config);
+            app.UseCors(CorsOptions.AllowAll);
             app.UseWebApi(config);
         }
 

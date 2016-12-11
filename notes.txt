@@ -1,0 +1,11 @@
+http://bitoftech.net/2014/06/01/token-based-authentication-asp-net-web-api-2-owin-asp-net-identity/
+
+* Implement Dependency Injection, where appropriate.  May be different with OWIN
+
+* Explore SimpleAuthorizationServerProvider.ValidateClientAuthentication
+
+* In SimpleAuthorizationServerProvider.GrantResourceOwnerCredentials, why do you enable CORS in the Response Header, instead of the Request Header?
+
+* Remove CORS programmically and use Azure
+
+* In Startup, what happens if the Endpoint is changed to api/token, how does that affect CORS?
