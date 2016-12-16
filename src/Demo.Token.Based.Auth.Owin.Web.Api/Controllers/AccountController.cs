@@ -15,9 +15,9 @@ namespace Demo.Token.Based.Auth.Owin.Web.Api.Controllers
     {
         private AuthenticationRepository _authenticationRepository;
 
-        public AccountController()
+        public AccountController(AuthenticationRepository authenticationRepository)
         {
-            _authenticationRepository = new AuthenticationRepository();
+            _authenticationRepository = authenticationRepository;
         }
 
         [AllowAnonymous]

@@ -15,9 +15,9 @@ namespace Demo.Token.Based.Auth.Owin.Web.Api.Repository
 
         private UserManager<IdentityUser> _userManager;
 
-        public AuthenticationRepository()
+        public AuthenticationRepository(AuthenticationContext context)
         {
-            _context = new AuthenticationContext();
+            _context = context;
             _userManager = new UserManager<IdentityUser>(new UserStore<IdentityUser>(_context));
         }
 

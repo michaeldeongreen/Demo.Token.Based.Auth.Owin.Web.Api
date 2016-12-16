@@ -1,4 +1,5 @@
 ﻿using Demo.Token.Based.Auth.Owin.Web.Api;
+using Demo.Token.Based.Auth.Owin.Web.Api.App_Start;
 using Demo.Token.Based.Auth.Owin.Web.Api.Providers;
 using Microsoft.Owin;
 using Microsoft.Owin.Cors;
@@ -31,7 +32,7 @@ namespace Demo.Token.Based.Auth.Owin.Web.Api
                 AllowInsecureHttp = true,
                 TokenEndpointPath = new PathString("/token"),
                 AccessTokenExpireTimeSpan = TimeSpan.FromDays(1),
-                Provider = new SimpleAuthorizationServerProvider()
+                Provider = StructuremapMvc.StructureMapDependencyScope.GetInstance<SimpleAuthorizationServerProvider>()
             };
 
             app.UseOAuthAuthorizationServer(OAuthServerOptions);
